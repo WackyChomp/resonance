@@ -6,7 +6,7 @@ export default function Home() {
     <div className="">
 
    <h1>Hope or Nope!</h1>
-   <Button size='lg'>Hello</Button>
+   <Button size='lg' variant='mystery'>Hello</Button>
     </div>
   );
 }
