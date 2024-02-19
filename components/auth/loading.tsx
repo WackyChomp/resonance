@@ -6,7 +6,7 @@ const Loading = (props: Props) => {
   return (
     <div className="h-full w-full flex flex-col justify-center items-center">
       <Image 
-        src='https://icons8.com/icon/11324/loading'
+        src='https://img.icons8.com/ios/200/spinner-frame-5.png'
         alt="spinner-frame-5"
         width={100}
         height={100}
