@@ -9,7 +9,7 @@ export default function Home() {
       <p>Welcome to <u>Authenticated User</u> screen!</p>
       <Button size='lg' variant='mystery'>Hello</Button>
       <div className="">
-        <UserButton />
+        <UserButton afterSignOutUrl="/"/>
       </div>
     </div>
   );
