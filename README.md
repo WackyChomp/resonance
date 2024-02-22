@@ -8,7 +8,7 @@ run frontend - npm run dev
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id='readme-top'>
-  <img src="https://gifdb.com/images/high/incredible-sound-wave-art-hxgh3rtf5v8vvh5i.gif" alt="Logo" width="400" height="200" style='border-radius: 1em'>
+  <img src="./public/blue-purple-wave.gif" alt="Logo" width="400" height="200" style='border-radius: 1em'>
 
   <h3 align="center">Resonance</h3>
 
@@ -54,3 +54,6 @@ https://github.com/Envoy-VC/awesome-badges
 [Tailwind-url]: https://tailwindcss.com/
 [Material-UI]: https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white
 [Material-UI-url]: https://mui.com/material-ui/getting-started/overview/
+
+
+[sound-wave-url]: https://gifdb.com/images/high/incredible-sound-wave-art-hxgh3rtf5v8vvh5i.gif

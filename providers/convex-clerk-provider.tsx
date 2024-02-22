@@ -19,12 +19,14 @@ export const ConvexClientProvider = ({
   return(
     <ClerkProvider>
       <ConvexProviderWithClerk useAuth={useAuth} client={convex}>
-        <Authenticated>
+        {/* <Authenticated>
           {children}      
         </Authenticated>
         <AuthLoading>
           <Loading/>
-        </AuthLoading>
+        </AuthLoading> */}
+        {/* disabled authentication for now , keeps getting stuck on loading screen */}
+        {children}
       </ConvexProviderWithClerk>
     </ClerkProvider>
   )
