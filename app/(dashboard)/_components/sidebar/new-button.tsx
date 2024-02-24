@@ -6,6 +6,9 @@ import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog'
 
 type Props = {}
 
+// [+] icon that creates new organizations inside sidebar
+
+
 const NewButton = (props: Props) => {
   return (
     <Dialog>
@@ -17,6 +20,10 @@ const NewButton = (props: Props) => {
           </button>
         </div>
       </DialogTrigger>
+
+      <DialogContent className='p-0 bg-yellow-400 border-none max-w-[500px]'>
+        <CreateOrganization />
+      </DialogContent>
     </Dialog>
   )
 }
