@@ -17,7 +17,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
           <div className='h-full flex-1'>
             <Navbar />
             {children}
-            <h1 className='bg-red-500 h-[85vh]'>DashboardLayout</h1>
+            <h1 className='bg-orange-500 h-[85vh]'>DashboardLayout</h1>
           </div>
         </div>
       </div>
