@@ -18,10 +18,9 @@ const List = (props: Props) => {
   if (!userMemberships.data?.length) return null;
 
   return (
-    <ul className='space-y-10'>
+    <ul className='space-y-3 bg-red-500 rounded-md p-1'>
       {userMemberships.data?.map((mem) => (
         <p key={mem.organization.id}>
-          {mem.organization.name}
           <Item 
             key={mem.organization.id}
             id={mem.organization.id}
