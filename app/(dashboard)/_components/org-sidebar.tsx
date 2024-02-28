@@ -9,6 +9,8 @@ import { OrganizationSwitcher } from '@clerk/nextjs'
 import { Button } from '@/components/ui/button'
 import { LayoutDashboard, Star } from 'lucide-react'
 
+import { useSearchParams } from 'next/navigation'
+
 type Props = {}
 
 const font = Roboto({
@@ -17,6 +19,9 @@ const font = Roboto({
 })
 
 const OrgSidebar = (props: Props) => {
+  const searchParams = useSearchParams();
+  const favorites = searchParams.get("favorites");
+
   return (
     <div className='hidden lg:flex flex-col space-y-10 w-[200px] px-3 pt-5 bg-purple-400'>
       <Link href='/'>
@@ -55,7 +60,7 @@ const OrgSidebar = (props: Props) => {
 
       <div className="space-y-5 w-full">
         <Button
-          variant='mystery'
+          variant={favorites ? "ghost" : "mystery"}
           asChild
           size='lg'
           className='font-normal justify-start w-full'
@@ -67,7 +72,7 @@ const OrgSidebar = (props: Props) => {
         </Button>
 
           <Button
-            variant='success'
+            variant={favorites ? "mystery" : "ghost"}
             asChild
             size='lg'
             className='font-normal justify-start w-full'

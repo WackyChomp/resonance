@@ -37,6 +37,36 @@ Here are some frameworks/libraries used in this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Folder Structure
+General overview of folder/files
+```
+| - app/
+    |-- (dashboard)/
+      |-- (_components)/
+      |-- layout.tsx
+      |-- page.tsx
+    |-- globals.css
+    |-- layout.tsx
+| - components/
+    |-- auth/
+    |-- ui/
+| - convex/
+| - lib/
+| - providers/
+| - public/
+```
+
+## Roadmap
+<h3>Features (WIP Todo)</h3>
+
+- [] Establish dashboard layout
+- [] Authentication with Clerk
+- [] Finalize color themes
+- [] 
+- [] 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- MARKDOWN LINKS & IMAGES
 https://www.markdownguide.org/basic-syntax/#reference-style-links
