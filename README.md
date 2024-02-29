@@ -16,16 +16,17 @@ run frontend - npm run dev
     Collaborate on the same wavelength
     <br />
     <br />
-    <a href="https://github.com/WackyChomp/boy"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/WackyChomp/resonance"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/WackyChomp/boy">View Demo</a>
+    <a href="https://github.com/WackyChomp/resonance">View Demo</a>
     ·
-    <a href="https://github.com/WackyChomp/boy/issues">Report Bug</a>
+    <a href="https://github.com/WackyChomp/resonance/issues">Report Bug</a>
     ·
-    <a href="https://github.com/WackyChomp/boy/issues">Request Feature</a>
+    <a href="https://github.com/WackyChomp/resonance/issues">Request Feature</a>
   </p>
 </div>
 
+<br />
 
 ## Built With
 Here are some frameworks/libraries used in this project:
@@ -36,6 +37,7 @@ Here are some frameworks/libraries used in this project:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<br/>
 
 ## Folder Structure
 General overview of folder/files
@@ -56,14 +58,20 @@ General overview of folder/files
 | - public/
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br/>
+
 ## Roadmap
 <h3>Features (WIP Todo)</h3>
 
 - [] Establish dashboard layout
 - [] Authentication with Clerk
 - [] Finalize color themes
-- [] 
-- [] 
+- [] Working query search in navbar
+- [] Mobile responsive
+- []
+- []
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
