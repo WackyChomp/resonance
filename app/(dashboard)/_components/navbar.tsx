@@ -1,11 +1,16 @@
+'use client'
+
 import React from 'react'
-import { OrganizationSwitcher, UserButton } from '@clerk/nextjs'
+import { OrganizationSwitcher, UserButton, useOrganization } from '@clerk/nextjs'
 import SearchInput from './search-input'
 import InviteButton from './invite-button'
 
 type Props = {}
 
 const Navbar = (props: Props) => {
+
+  const { organization } = useOrganization();
+
   return (
     <div className='bg-green-500 flex items-center gap-x-5 p-5'>
       <p>Navbar</p>
@@ -40,7 +45,10 @@ const Navbar = (props: Props) => {
         />
       </div>
 
-      <InviteButton/>
+      {/* Only shows InviteButton when there's an org selected */}
+      {organization && (
+        <InviteButton/>
+      )}
 
       <UserButton afterSignOutUrl="/"/>
     </div>

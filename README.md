@@ -8,7 +8,7 @@ run frontend - npm run dev
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id='readme-top'>
-  <img src="./public/blue-purple-wave.gif" alt="Logo" width="400" height="200" style='border-radius: 1em'>
+  <img src="./public/blue-purple-wave.gif" alt="Logo" target='blank' width="400" height="200" style='border-radius: 1em'>
 
   <h3 align="center">Resonance</h3>
 
@@ -27,6 +27,27 @@ run frontend - npm run dev
 </div>
 
 <br />
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li><a href="#folder-structure">Folder Structure</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+  </ol>
+</details>
+
+
+## About The Project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br />
+
 
 ## Built With
 Here are some frameworks/libraries used in this project:
