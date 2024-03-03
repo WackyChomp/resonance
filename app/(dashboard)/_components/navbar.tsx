@@ -12,7 +12,7 @@ const Navbar = (props: Props) => {
   const { organization } = useOrganization();
 
   return (
-    <div className='bg-green-500 flex items-center gap-x-5 p-5'>
+    <div className='bg-purple-400 flex items-center gap-x-5 p-5'>
       <p>Navbar</p>
 
       <div className='hidden lg:flex lg:flex-1 bg-blue-700'>

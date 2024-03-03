@@ -4,7 +4,6 @@ import queryString from 'query-string'
 import { Search } from 'lucide-react'
 import { useRouter } from 'next/navigation'   // router only works in pages folder
 import { Input } from '@/components/ui/input'
-import { useDebounce } from 'use-debounce'
 
 
 type Props = {}

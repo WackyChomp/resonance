@@ -38,11 +38,24 @@ run frontend - npm run dev
     </li>
     <li><a href="#folder-structure">Folder Structure</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
   </ol>
 </details>
 
 
 ## About The Project
+Need an environment to simultaneously design and prototype new ideas? Look no further with <u><b>Resonance</b></u>
+
+Being able to interact with others remotely on a virtual whiteboard in real-time is not only engaging but incredibly convenient.
+
+Sure you can plan and draw out your vision with pen and paper but there are physical limitations with this approach:
+
+- Running out of space while being in the midst of the creative process may results in setback and disrupt workflow.
+- Imagine huddling in a group activity/project and trying to share your ideas openly while being mindful of their physical boundary.
+- Juggling multiple ideas/projects and trying to keep them in their respective places without overlapping or accidental crossover
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,6 +106,23 @@ General overview of folder/files
 - [] Mobile responsive
 - []
 - []
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+List of wonderful resources and credits to: 
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Font Awesome](https://fontawesome.com)
+* [Badge Shield](https://dev.to/envoy_/150-badges-for-github-pnk)
+<br><br>
+* [Tailwind CSS](https://tailwindcss.com/docs/installation) - CSS framework
+* [Next.js](https://nextjs.org/docs/getting-started/installation) - React Framework
+* [Clerk](https://clerk.com/) - Authentication + User Management
+* [Shadcn/ui](https://ui.shadcn.com/docs) - Customizable UI components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
