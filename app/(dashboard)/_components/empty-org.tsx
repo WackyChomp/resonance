@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
+import { CreateOrganization } from '@clerk/nextjs'
+import { Button } from '@/components/ui/button'
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog'
 
 type Props = {}
 
@@ -8,7 +11,7 @@ type Props = {}
 const EmptyOrg = (props: Props) => {
   return (
     <div className='bg-purple-300 h-[82vh] flex flex-col items-center justify-center'>
-      <div className="bg-orange-500 flex flex-col items-center justify-center rounded-xl border-red-400">
+      <div className="bg-purple-500 flex flex-col items-center justify-center rounded-xl border-red-400">
         
         <h1 className='text-4xl font-semibold mt-5 mx-5'>
           Welcome to Resonance
@@ -22,8 +25,21 @@ const EmptyOrg = (props: Props) => {
           className='m-5'
         />
         
-        <div className="bg-yellow-300 p-2 mb-5 rounded-xl">
+        <div className="text-sm">
           Create an organization to get started!
+        </div>
+
+        <div className="m-5">
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant='success'>
+              Create organization
+              </Button>
+            </DialogTrigger>
+            <DialogContent className='p-0 bg-transparent border-none max-w-[500px]'>
+              <CreateOrganization />
+            </DialogContent>
+          </Dialog>
         </div>
 
       </div>
