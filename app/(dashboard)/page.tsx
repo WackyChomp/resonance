@@ -4,8 +4,17 @@ import Image from "next/image";
 import { UserButton } from "@clerk/nextjs";
 import EmptyOrg from "./_components/empty-org";
 import { useOrganization } from "@clerk/nextjs";
+import BoardList from "./_components/board-list";
 
-export default function Home() {
+
+interface DashboardPageProps {
+  searchParams: {
+    search?: string;          // finds query from search-input component
+    favorites?: string;       // finds query from org-sidebar component
+  }
+}
+
+export default function Home( { searchParams }: DashboardPageProps ) {
   const { organization } = useOrganization();
 
   return (
@@ -16,10 +25,16 @@ export default function Home() {
       {!organization ? (
         <EmptyOrg/>
         ): (
-          <div className="flex flex-col h-[82vh] items-center justify-center">
-            <div className="bg-yellow-400 p-5 rounded-xl">            
+          <div className="flex flex-col h-[82vh] items-center">
+            <div className="bg-yellow-400 p-5 rounded-xl flex flex-col items-center">
+              <h1>Board List</h1>
               <p>Organization exists, no need to create new organization</p>
             </div>
+
+            <BoardList
+              orgId={organization.id}
+              query={searchParams}
+            />
           </div>
         )}
     </div>
