@@ -13,6 +13,10 @@ module.exports = {
       },
       {
         protocol: 'https',
+        hostname: 'media1.tenor.com',
+      },
+      {
+        protocol: 'https',
         hostname: 'media4.giphy.com',
       },
       {

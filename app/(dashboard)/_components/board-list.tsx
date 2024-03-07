@@ -1,5 +1,11 @@
 'use client'
-import React from 'react'
+
+import EmptySearch from './empty-search';
+import EmptyFavorites from './empty-favorites';
+import EmptyBoards from './empty-boards';
+
+
+{/* Board list Shows 3 different states: ( search | favorites | boards ) */}
 
 interface Props {
   orgId: string;
@@ -14,20 +20,27 @@ const BoardList = ({ orgId, query }: Props) => {
 
   if (!data?.length && query.search){
     return(
-      <div>This search does not work. Enter another search... </div>
+      <div>
+        <EmptySearch />
+      </div>
     );
   }
   if (!data?.length && query.favorites){
     return(
-      <div>No favorites here... </div>
+      <div>
+        <EmptyFavorites />
+      </div>
     );
   }
   if (!data?.length){
     return(
-      <div>No boards exist...Go create a new board! </div>
+      <div>
+        <EmptyBoards />
+      </div>
     );
   }
 
+  // This renders if either above conditions fail
   return (
     <div>
       BoardList
