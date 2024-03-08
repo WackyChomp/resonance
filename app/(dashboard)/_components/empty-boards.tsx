@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 type Props = {}
@@ -15,6 +16,12 @@ const EmptyBoards = (props: Props) => {
       <p>
         No boards exist...Go create a new board!
       </p>
+
+      <div className="mt-7">
+        <Button size='lg'>
+          Create Board
+        </Button>
+      </div>
     </div>
   )
 }
