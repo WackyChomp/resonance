@@ -18,10 +18,10 @@ const EmptyOrg = (props: Props) => {
         </h1>
 
         <Image 
-          src='/Saly-25.svg'
+          src='https://www.svgrepo.com/show/154524/online-collaboration.svg'
           alt='Empty-Image'
-          height={200}
-          width={200}
+          height={100}
+          width={100}
           className='m-5'
         />
         
