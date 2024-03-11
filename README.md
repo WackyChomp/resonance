@@ -104,7 +104,7 @@ General overview of folder/files
 - [] Finalize color themes
 - [] Working query search in navbar
 - [] Mobile responsive
-- []
+- [] Establish api routes
 - []
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
