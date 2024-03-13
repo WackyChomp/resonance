@@ -78,15 +78,20 @@ General overview of folder/files
 ```
 | - app/
     |-- (dashboard)/
-      |-- (_components)/
-      |-- layout.tsx
-      |-- page.tsx
+        |-- (_components)/
+            |-- board-card/
+            |-- sidebar/
+        |-- layout.tsx
+        |-- page.tsx
     |-- globals.css
     |-- layout.tsx
 | - components/
     |-- auth/
     |-- ui/
 | - convex/
+    |-- board.ts
+    |-- boards.ts
+    |-- schema.ts
 | - lib/
 | - providers/
 | - public/
